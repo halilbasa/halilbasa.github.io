@@ -72,6 +72,8 @@ button3.onclick = function(){
             cps = 0;
             cjenas = 100;
             cjenahalil = cjenahalil * 1000;
+            button1.textContent = "+2x coin po kliku \n" + cjenaklik;
+            button2.textContent = "+1 coin po sekundi \n" + cjenas;
 
         }else if(indikator == 2){
             halil.src = "haliltri.png";
@@ -80,6 +82,8 @@ button3.onclick = function(){
             cjenaklik = 100;
             cps = 0;
             cjenas = 100;
+            button1.textContent = "+2x coin po kliku \n" + cjenaklik;
+            button2.textContent = "+1 coin po sekundi \n" + cjenas;
             
         }else{
             null;
