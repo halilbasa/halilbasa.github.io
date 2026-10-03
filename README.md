@@ -1,1 +1,0 @@
-# halilbasa.github.io
