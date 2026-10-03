@@ -53,7 +53,7 @@ button2.onclick = function(){
         score.textContent = b;
         button2.textContent = "+1 coin po sekundi \n" + cjenas;
         if(cps >= 30 && cjenas != 500){
-            cjenas = cjenas * 2;
+            cjenas = cjenas + 100;
             button2.textContent = "+1 coin po sekundi \n" + cjenas;
         }
     }
