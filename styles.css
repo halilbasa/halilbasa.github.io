@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.naslov {
+    background-color: rgb(40, 31, 73);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: rgb(211, 213, 215);
+}
+
+body{
+    background-color:rgb(37, 38, 47);
+
+}
+
+
+.ploca{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: auto;  
+    margin-right: auto;
+}
+
+img{
+    width: 125px;  
+    height: auto;
+
+}
+
+.igra {
+    display: grid;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: auto;  
+    margin-right: auto;
+    align-items: center;
+    justify-items:center;
+}
+
+#bodovi {
+     color: rgb(211, 213, 215);
+     font-size: 45px;
+}
+
+#novac {
+    width: 125px;  
+    height: auto;
+
+}
+
+.dugmad {
+    display: grid;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: auto;  
+    margin-right: auto;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    white-space: pre-line;
+    gap: 1em;
+}
+
+.dugme {
+    color: rgb(192, 219, 243);
+    background-color: hsl(208, 36%, 51%);
+    border-color:rgb(98, 126, 152);
+    
+}
+
+.dugme:hover{
+    color: rgb(0, 0, 0);
+    background-color: hwb(208 75% 5%);
+    border-color:rgb(98, 126, 152);
+    
+}
+
+
+
+
