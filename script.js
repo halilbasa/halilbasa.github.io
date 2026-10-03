@@ -1,4 +1,4 @@
-let b = 1000000;
+let b = 0;
 let klik = 1;
 let cjenaklik = 100;
 let cps = 0;
