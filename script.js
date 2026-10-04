@@ -30,7 +30,7 @@ button1.onclick = function(){
     if(b >= cjenaklik){
         klik = klik * 2;
         b = b - cjenaklik;
-        cjenaklik = cjenaklik * 3;
+        cjenaklik = cjenaklik * 2;
         button1.textContent = "+2x coin po kliku \n" + cjenaklik;
         score.textContent = b;
     }
@@ -52,7 +52,7 @@ button2.onclick = function(){
         cjenas = cjenas + 25;
         score.textContent = b;
         button2.textContent = "+1 coin po sekundi \n" + cjenas;
-        if(cps >= 30 && cjenas != 500){
+        if(cps >= 30){
             cjenas = cjenas + 100;
             button2.textContent = "+1 coin po sekundi \n" + cjenas;
         }
