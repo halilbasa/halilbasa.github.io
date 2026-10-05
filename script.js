@@ -5,6 +5,7 @@ let cps = 0;
 let cjenas = 100;
 let cjenahalil = 1000000;
 let indikator = 0;
+let radnici = 0;
 const score = document.getElementById("bodovi");
 score.textContent = b;
 
@@ -92,4 +93,18 @@ button3.onclick = function(){
         }
     }
 
+}
+
+setInterval(()=>{
+    b = b + 5000 * radnici;
+    score.textContent = b;
+
+},120000);
+
+const button4 = document.getElementById("dugme4");
+
+button4.onclick = function(){
+    radnici++;
+    b = b - 5000;
+    score.textContent = b;
 }
