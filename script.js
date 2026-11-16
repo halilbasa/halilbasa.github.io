@@ -17,7 +17,6 @@ pare.onclick = function(){
     
     b = b + klik;
     score.textContent = b;
-    console.log(b);
 
 }
 
@@ -31,7 +30,7 @@ button1.onclick = function(){
     if(b >= cjenaklik){
         klik = klik * 2;
         b = b - cjenaklik;
-        cjenaklik = cjenaklik * 2;
+        cjenaklik = cjenaklik * 2.5;
         button1.textContent = "+2x coin po kliku \n" + cjenaklik;
         score.textContent = b;
     }
@@ -104,7 +103,9 @@ setInterval(()=>{
 const button4 = document.getElementById("dugme4");
 
 button4.onclick = function(){
+   if(b >= 5000){
     radnici++;
     b = b - 5000;
     score.textContent = b;
+   }
 }

@@ -11,10 +11,23 @@
     padding: 0;
     text-align: center;
     color: rgb(211, 213, 215);
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#naslov {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
-    background-color:rgb(37, 38, 47);
+    background-color: rgb(49, 55, 93);
 
 }
 
@@ -70,6 +83,8 @@ img{
     color: rgb(192, 219, 243);
     background-color: hsl(208, 36%, 51%);
     border-color:rgb(98, 126, 152);
+    border: 0;
+    border-radius: 15px;
     
 }
 
